@@ -1,0 +1,35 @@
+{
+  "name": "lgps_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev" : "webpack --mode development ./main_app/frontend/src/index.js --output-path ./main_app/frontend/static/frontend",
+    "build" : "webpack --mode production ./main_app/frontend/src/index.js --output-path ./main_app/frontend/static/frontend"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/giurcapaulsebastian/lgps_app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/giurcapaulsebastian/lgps_app/issues"
+  },
+  "homepage": "https://github.com/giurcapaulsebastian/lgps_app#readme",
+  "devDependencies": {
+    "@babel/core": "^7.17.7",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "babel-loader": "^8.2.3",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "webpack": "^5.70.0",
+    "webpack-cli": "^4.9.2"
+  },
+  "dependencies": {
+    "prop-types": "^15.8.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
